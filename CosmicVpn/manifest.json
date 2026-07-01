@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Космический Прокси Переключатель",
+  "version": "1.0",
+  "description": "Автоматический переключатель прокси в стиле космоса",
+  "permissions": [
+    "proxy",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
